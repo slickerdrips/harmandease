@@ -1,0 +1,56 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+
+@keyframes rotarycambiardecolor {
+
+    0% {
+
+        transform: rotate(0);
+        background: rgb(236, 9, 206);
+    }
+
+    25% {
+        
+        transform: rotate(70deg);
+        background: rgb(170, 50, 70);
+
+    }
+
+    60% {
+
+        transform: rotate(20deg);
+        background: rgb(199, 23, 52);
+    }
+
+    100% {
+
+        transform: rotate(0);
+        background: rgb(97, 7, 7);
+    }
+
+}
+.animar {
+
+    height: 150px;
+    width: 150px;
+    background: rgb(238, 117, 212);
+    margin: auto;
+    margin-top: 100px;
+
+
+    animation-name: rotarycambiardecolor;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+
+
+}
+
+
+
