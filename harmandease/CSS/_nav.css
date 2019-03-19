@@ -1,0 +1,63 @@
+
+nav ul li a {
+
+    float: right;
+    color: #FFD187;
+    font-size: 15px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family:'Ropa Sans', sans-serif;
+
+
+}
+
+nav ul li {
+    
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul {
+
+    float: right;
+
+}
+
+nav { 
+   background-color:#161616;
+   padding: 30px;
+   width: 100%;
+   position: fixed;
+   font-family: 'Ropa Sans', sans-serif;
+   z-index: 2;
+
+
+       animation-name: nav;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+
+
+
+
+.subs {
+    display:none;
+    position: absolute;
+    padding: 10px;
+    margin: 40px;
+    background-color:rgba(51, 48, 48, 0.829);
+    border-color: rgb(19, 18, 18)
+}
+
+.menu li:hover .subs {
+    display: block;
+    
+}
+
+.menu li {
+    position:relative;
+}
